@@ -3,7 +3,7 @@
 
 echo "Cleaning "
 
-if [ -d "buildroot"]; then
+if [ -d "buildroot" ]; then
 
     echo "Buildroot"
     make -C buildroot distclean
